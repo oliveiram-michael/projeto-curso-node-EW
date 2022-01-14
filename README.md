@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 docker run \
     --name postgres \
     -e POSTGRES_USER=erickwendel \
@@ -33,3 +34,7 @@ docker run \
 docker exec -it mongodb \
     mongo --host localhost -u admin -p senhaadmin --authenticationDatabase admin \
     --eval "db.getSiblingDB('herois').createUser({user: 'erickwendel', pwd: 'minhasenhasecreta', roles: [{role: 'readWrite', db: 'herois'}]})"
+=======
+# projeto-curso-node-EW
+Curso de NodeJs
+>>>>>>> projeto-curso-node-EW/main
